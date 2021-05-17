@@ -1,0 +1,3 @@
+dot env to hide files
+nodemon to automate start no ctrl c and start everytime
+chalk for color
