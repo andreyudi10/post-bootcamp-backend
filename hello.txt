@@ -2,3 +2,6 @@ dot env to hide files
 nodemon to automate start no ctrl c and start everytime
 chalk for color
 fs for data loger, konversi data
+tren sekarang mengarah ke graph ql
+langsung get semua, tinggal front endnya mo kelola gimana
+masalahnya ga bisa langsung upload data
