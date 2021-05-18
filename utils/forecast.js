@@ -1,4 +1,4 @@
-const require = require('request')
+const request = require('request')
 require('dotenv').config()
 
 const forecast = (latitude, longitude, callback) => {
