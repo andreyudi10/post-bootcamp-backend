@@ -12,3 +12,7 @@ app.get('/', ( req, res ) => {
 app.listen( port, () => {
     console.log(`server start at ${port}`)
 })
+
+// app.get('/forecast', ( req, res ) => {
+//     res.send()
+// })
