@@ -1,12 +1,12 @@
-const dotenv = require('dotenv')
 const express = require('express')
+const app = express()
 
-app = express()
+require('dotenv').config()
 
-port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 app.get('/', ( req, res ) => {
-    res.send('hello world')
+    res.send(`hello world ganti kata ${process.env.PORT}`)
 })
 
 app.listen( port, () => {
